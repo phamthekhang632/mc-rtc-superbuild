@@ -1,0 +1,93 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[presetController] Reading and validating the presets file "/home/vscode/superbuild/CMakePresets.json"
+[presetController] Successfully validated /home/vscode/superbuild/CMakePresets.json against presets schema
+[proc] Executing command: uname -s
+[presetController] Expanding presets file /home/vscode/superbuild/CMakePresets.json
+[presetController] Successfully expanded presets file /home/vscode/superbuild/CMakePresets.json
+[main] Configuring project: superbuild 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSOURCE_DESTINATION=/home/vscode/superbuild/../workspace/devel -DBUILD_DESTINATION=/home/vscode/superbuild/../workspace/build/projects -DCMAKE_INSTALL_PREFIX=/home/vscode/superbuild/../workspace/install -S /home/vscode/superbuild -B /home/vscode/workspace/build/superbuild -G "Unix Makefiles"
+[cmake] -- The C compiler identification is GNU 11.4.0
+[cmake] -- The CXX compiler identification is GNU 11.4.0
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] Selected CCache: /usr/bin/ccache
+[cmake] -- Use Python for install: /usr/bin/python3
+[cmake] Defaulting to user installation because normal site-packages is not writeable
+[cmake] Collecting pre-commit
+[cmake]   Downloading pre_commit-4.3.0-py2.py3-none-any.whl (220 kB)
+[cmake]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.0/221.0 KB 3.8 MB/s eta 0:00:00
+[cmake] Collecting cfgv>=2.0.0
+[cmake]   Downloading cfgv-3.4.0-py2.py3-none-any.whl (7.2 kB)
+[cmake] Collecting identify>=1.0.0
+[cmake]   Downloading identify-2.6.13-py2.py3-none-any.whl (99 kB)
+[cmake]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.2/99.2 KB 10.3 MB/s eta 0:00:00
+[cmake] Collecting nodeenv>=0.11.1
+[cmake]   Downloading nodeenv-1.9.1-py2.py3-none-any.whl (22 kB)
+[cmake] Collecting virtualenv>=20.10.0
+[cmake]   Downloading virtualenv-20.34.0-py3-none-any.whl (6.0 MB)
+[cmake]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.0/6.0 MB 28.6 MB/s eta 0:00:00
+[cmake] Requirement already satisfied: pyyaml>=5.1 in /usr/lib/python3/dist-packages (from pre-commit) (5.4.1)
+[cmake] Collecting typing-extensions>=4.13.2
+[cmake]   Downloading typing_extensions-4.14.1-py3-none-any.whl (43 kB)
+[cmake]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.9/43.9 KB 6.4 MB/s eta 0:00:00
+[cmake] Collecting distlib<1,>=0.3.7
+[cmake]   Downloading distlib-0.4.0-py2.py3-none-any.whl (469 kB)
+[cmake]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 469.0/469.0 KB 29.0 MB/s eta 0:00:00
+[cmake] Collecting platformdirs<5,>=3.9.1
+[cmake]   Downloading platformdirs-4.3.8-py3-none-any.whl (18 kB)
+[cmake] Collecting filelock<4,>=3.12.2
+[cmake]   Downloading filelock-3.19.1-py3-none-any.whl (15 kB)
+[cmake] Installing collected packages: distlib, typing-extensions, platformdirs, nodeenv, identify, filelock, cfgv, virtualenv, pre-commit
+[cmake] Successfully installed cfgv-3.4.0 distlib-0.4.0 filelock-3.19.1 identify-2.6.13 nodeenv-1.9.1 platformdirs-4.3.8 pre-commit-4.3.0 typing-extensions-4.14.1 virtualenv-20.34.0
+[cmake] -- Configuring done (3.9s)
+[cmake]   WARNING: The script nodeenv is installed in '/home/vscode/.local/bin' which is not on PATH.
+[cmake]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[cmake]   WARNING: The script identify-cli is installed in '/home/vscode/.local/bin' which is not on PATH.
+[cmake]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[cmake]   WARNING: The script virtualenv is installed in '/home/vscode/.local/bin' which is not on PATH.
+[cmake]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[cmake]   WARNING: The script pre-commit is installed in '/home/vscode/.local/bin' which is not on PATH.
+[cmake]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[cmake] -- Use pre-commit: /home/vscode/.local/bin/pre-commit
+[cmake] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[cmake] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[cmake] -- Use sudo for install: /usr/bin/sudo (needed by prefix /usr)
+[cmake] 
+[cmake] ================================================================================
+[cmake] **
+[cmake] ** mc-rtc-superbuild is now ready, the following special targets are available:
+[cmake] ** - clone: clone all projects into their location
+[cmake] ** - update: update all the projects at once
+[cmake] ** - uninstall: uninstall all the project at once
+[cmake] **
+[cmake] ** You can also use the [COMMAND]-[NAME] form to update particular projects
+[cmake] **
+[cmake] ** Or use your regular build command to build all projects
+[cmake] **
+[cmake] ** - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[cmake] **
+[cmake] ** Source will be cloned in /home/vscode/workspace/devel
+[cmake] **
+[cmake] ** Build will be generated in:
+[cmake] ** - mc-rtc-superbuild: /home/vscode/workspace/build/superbuild
+[cmake] **   Build targets here can be used to update/build/install all projects in the superbuild (and its extensions).
+[cmake] **   This is the recommended way to build as it ensures that all changes will be taken into account and avoid potential ABI inconsistencies.
+[cmake] ** - Each project's build files will be in /home/vscode/workspace/build/projects/<project_name>
+[cmake] **
+[cmake] ** Please add the following lines to your .zshrc file:
+[cmake] **
+[cmake] ** source /home/vscode/workspace/install/setup_mc_rtc.sh
+[cmake] **
+[cmake] ================================================================================
+[cmake] 
+[cmake] -- Generating done (0.2s)
+[cmake] -- Build files have been written to: /home/vscode/workspace/build/superbuild
