@@ -1,4 +1,4 @@
-*This repository is forked from [mc_rtc_superbuild](https://github.com/mc-rtc/mc-rtc-superbuild.git). I changed some configuration (check branch [installation](https://github.com/phamthekhang632/mc-rtc-superbuild/tree/installation)) to run it on Windows with RViZ.*
+*This repository is forked from [mc_rtc_superbuild](https://github.com/mc-rtc/mc-rtc-superbuild.git). I changed some configurations (check branch [installation](https://github.com/phamthekhang632/mc-rtc-superbuild/tree/installation)) to run it on Windows with RViZ.*
 
 mc_rtc superbuild
 ==
